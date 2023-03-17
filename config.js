@@ -14,12 +14,12 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://api.zahwazein.xyz': 'Your Key',
+	'https://api.zahwazein.xyz': 'f8c34b7dfe',
 }
 
 // Other
-global.owner = ['6285857292852','6281319868981']
-global.premium = ['6285857292852','6281319868981']
+global.owner = ['6285857292852']
+global.premium = ['6285857292852']
 global.packname = 'Hisoka Morrow'
 global.author = 'WhatsApp Bot'
 global.sessionName = 'hisoka'
