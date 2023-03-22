@@ -582,6 +582,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 case "ask" :
+			if(!text) return m.reply("siapakah saya");
 const data = await fetch("https://chatgpt-eywr.onrender.com", {
       method: "POST",
       headers: {
