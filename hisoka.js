@@ -588,12 +588,12 @@ const data = await fetch("https://chatgpt-eywr.onrender.com", {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        prompt: q + "?",
+        prompt: text + "?",
       }),
     });
     let response = await data.json();
     let main = response.bot;
-reply(main)
+m.reply(main)
 break
             case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
             if (!m.quoted && !text) throw `Kirim/reply text dengan caption ${prefix + command}`
